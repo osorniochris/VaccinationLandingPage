@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #1f3e72;
+  --color-secondary: #6d7b93;
+  --custom-white: #f2f1f2;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--custom-white);
+}
+
+.my-nav {
+  height: 7rem;
+  line-height: 7rem;
+  background-color: var(--custom-white);
+}
+
+.my-nav ul a {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.my-nav a {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.sidenav ul a {
+  color: var(--color-secondary);
+}
+
+.brand-logo {
+  color: #3757d5 !important;
+  font-weight: 700;
+  font-size: 2rem !important;
+}
+
+.main-btn {
+  background-color: #3757d5;
+  color: var(--custom-white) !important;
+  text-transform: capitalize !important;
+}
+
+.main-btn:hover {
+  background-color: #506bd6;
+}
+
+.container-fluid {
+  width: 100% !important;
+  max-width: initial !important;
+}
+.container-fluid > .row {
+  margin: 0 !important;
+}
+.container-fluid > .row > .col.right-col {
+  padding: 0 !important;
+}
+
+.main-left-column {
+  padding-left: 14rem !important;
+  padding-right: 9rem !important;
+  padding-top: 6.5rem !important;
+}
+
+.title {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.main-text {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.icon-text {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.main-icon {
+  color: #ffd012;
+  background-color: #fff8dd;
+  padding: 0.2rem;
+}
+
+.main-subtitle-row {
+  padding-top: 10rem;
+}
+
+.clock-icon {
+  color: #3757d5;
+  background-color: #6b88fc;
+  padding: 0.2rem;
+}
+
+.icon-main-text {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-left: 0.4rem;
+}
+
+.form-row {
+  z-index: 99;
+  width: 53rem !important;
+  position: relative;
+  background-color: var(--custom-white);
+  height: 9rem;
+}
