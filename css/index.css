@@ -101,8 +101,8 @@ body {
 
 .clock-icon {
   color: #3757d5;
-  background-color: #6b88fc;
-  padding: 0.2rem;
+  background-color: #c0ccfc;
+  padding: 0.4rem;
 }
 
 .icon-main-text {
@@ -118,4 +118,48 @@ body {
   position: relative;
   background-color: var(--custom-white);
   height: 9rem;
+  padding-top: 2rem;
+}
+
+.icon-text-form {
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+.text-form-2 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.text-form-1 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1rem;
+  padding-left: 4rem;
+}
+
+.text-form-3 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1rem;
+  padding-left: 5.45rem;
+}
+
+.main-btn-form {
+  background-color: #3757d5;
+  color: var(--custom-white) !important;
+  text-transform: capitalize !important;
+  font-weight: 700;
+}
+
+.main-btn-form:hover {
+  background-color: #506bd6;
+}
+
+.logos-container {
+  padding: 4rem 0;
+  width: 80%;
 }
