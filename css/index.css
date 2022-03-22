@@ -3,7 +3,7 @@
 :root {
   --color-primary: #1f3e72;
   --color-secondary: #6d7b93;
-  --custom-white: #f2f1f2;
+  --custom-white: #ffffff;
 }
 
 html {
@@ -160,6 +160,99 @@ body {
 }
 
 .logos-container {
-  padding: 4rem 0;
+  padding: 3rem 0;
   width: 80%;
+}
+
+.why-container {
+  padding: 1rem 0;
+  width: 80%;
+}
+
+.card {
+  background-color: var(--custom-white);
+}
+
+.card-icon {
+  color: #3757d5;
+  background-color: #c0ccfc;
+  padding: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-title {
+  color: var(--color-primary) !important;
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.my-card-content {
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-bottom: 2.2rem !important;
+}
+
+.card {
+  height: 20rem !important;
+}
+
+.why-title {
+  color: var(--color-primary);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.why-text {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 2.4rem 0;
+}
+
+.why-section {
+  margin-bottom: 6rem;
+}
+
+.row-prep {
+  height: 5.5rem;
+}
+
+.collap-div {
+  display: flex;
+  justify-content: space-between;
+  border: 0.1rem solid #e5eaf3;
+}
+
+.arrow-icon {
+  color: #3757d5;
+  background-color: #c0ccfc;
+}
+
+.collap-header {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.collap-text {
+  color: var(--color-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 2.4rem 0;
+  margin-left: 2.4rem;
+}
+
+.collap-container {
+  margin-bottom: 2rem;
+}
+
+.collapsible {
+  border: none !important;
+}
+
+.collapsible-body {
+  border-bottom: none !important;
+  box-shadow: 0rem 0rem 1rem 0rem #e5eaf3;
 }
