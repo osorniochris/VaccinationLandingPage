@@ -169,8 +169,9 @@ body {
   width: 80%;
 }
 
-.card {
+.why-card {
   background-color: var(--custom-white);
+  height: 20rem !important;
 }
 
 .card-icon {
@@ -192,10 +193,6 @@ body {
   font-weight: 500;
   font-size: 0.8rem;
   margin-bottom: 2.2rem !important;
-}
-
-.card {
-  height: 20rem !important;
 }
 
 .why-title {
@@ -255,4 +252,74 @@ body {
 .collapsible-body {
   border-bottom: none !important;
   box-shadow: 0rem 0rem 1rem 0rem #e5eaf3;
+}
+
+.row-con {
+  height: 20rem;
+}
+
+.container-fluid > .row > .col.right-col > .row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.col-contact {
+  padding-top: 10rem !important;
+}
+
+.contact-text {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 2.4rem 0 10rem 0;
+}
+
+.upper-contact-row {
+  margin-bottom: 3.5rem;
+}
+
+.con-card {
+  background-color: var(--custom-white);
+  height: 15rem !important;
+  border: none !important;
+  box-shadow: 0rem 0rem 1rem 0rem #e5eaf3;
+  padding: auto;
+}
+
+.upper-content {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem !important;
+}
+
+.con-card-title {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-left: 1rem !important;
+}
+
+.con-card-subtitle {
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 1rem !important;
+}
+
+.card-btn {
+  background-color: #c0ccfc;
+  color: #3757d5 !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+}
+
+.card-btn:hover {
+  background-color: #d8dff8;
 }
