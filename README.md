@@ -18,3 +18,4 @@ Recrear el diseño de página de vacunación creado por [Adhiari Subekti](https:
 
 - Infografía de campaña de vacunación disponible [aquí](./info_vaccination.pdf)
 - Sitio disponible [aquí](https://vaccination-page-cos.netlify.app/)
+- Imagen del resultado [aquí](./result.png)
