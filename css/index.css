@@ -101,7 +101,7 @@ body {
 
 .clock-icon {
   color: #3757d5;
-  background-color: #c0ccfc;
+  background-color: #e9f1fe;
   padding: 0.4rem;
 }
 
@@ -176,7 +176,7 @@ body {
 
 .card-icon {
   color: #3757d5;
-  background-color: #c0ccfc;
+  background-color: #e9f1fe;
   padding: 0.4rem;
   margin-bottom: 1.2rem;
 }
@@ -224,7 +224,7 @@ body {
 
 .arrow-icon {
   color: #3757d5;
-  background-color: #c0ccfc;
+  background-color: #e9f1fe;
 }
 
 .collap-header {
@@ -314,7 +314,7 @@ body {
 }
 
 .card-btn {
-  background-color: #c0ccfc;
+  background-color: #e9f1fe;
   color: #3757d5 !important;
   text-transform: capitalize !important;
   font-weight: 700 !important;
@@ -322,4 +322,39 @@ body {
 
 .card-btn:hover {
   background-color: #d8dff8;
+}
+
+#contact {
+  padding-bottom: 6rem;
+}
+
+.page-footer {
+  background-color: #e9f1fe !important;
+}
+
+.footer-copyright {
+  background-color: #e9f1fe !important;
+  color: var(--color-secondary) !important;
+  font-weight: 700;
+}
+
+.grey-text {
+  color: var(--color-secondary) !important;
+  font-weight: 500;
+}
+
+.footer-title {
+  color: #3757d5;
+  font-weight: 600;
+}
+
+.footer-subtitle {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.footer-link {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
 }
